@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}Terms and Conditions — Spendly{% endblock %}
+
+{% block content %}
+
+<section class="terms-section">
+    <div class="terms-inner">
+        <h1 class="terms-title">Terms and Conditions</h1>
+        <p class="terms-updated">Last updated: April 7, 2026</p>
+
+        <div class="terms-content">
+            <section class="terms-block">
+                <h2 class="terms-block-title">1. Acceptance of Terms</h2>
+                <p class="terms-block-body">
+                    By accessing and using Spendly, you accept and agree to be bound by the terms
+                    and provision of this agreement. If you do not agree to abide by these terms,
+                    please do not use this service.
+                </p>
+            </section>
+
+            <section class="terms-block">
+                <h2 class="terms-block-title">2. Use of Service</h2>
+                <p class="terms-block-body">
+                    Spendly is a personal expense tracking application designed to help you log
+                    and analyze your financial transactions. You agree to use this service in
+                    accordance with all applicable laws and regulations. You are responsible for
+                    maintaining the confidentiality of your account credentials and for all
+                    activities that occur under your account.
+                </p>
+            </section>
+
+            <section class="terms-block">
+                <h2 class="terms-block-title">3. User Data</h2>
+                <p class="terms-block-body">
+                    We collect and store expense data, categories, and related financial
+                    information that you enter into the service. This data is used solely to
+                    provide you with expense tracking and analysis features. We implement
+                    reasonable security measures to protect your data, but we cannot guarantee
+                    absolute security. You are responsible for regularly backing up your data.
+                </p>
+            </section>
+
+            <section class="terms-block">
+                <h2 class="terms-block-title">4. Limitations of Liability</h2>
+                <p class="terms-block-body">
+                    Spendly is provided on an "as is" and "as available" basis without warranties
+                    of any kind. We shall not be liable for any indirect, incidental, special,
+                    consequential, or punitive damages resulting from your use or inability to
+                    use the service, unauthorized access to your data, or any other matter
+                    relating to the service.
+                </p>
+            </section>
+
+            <section class="terms-block">
+                <h2 class="terms-block-title">5. Changes to Terms</h2>
+                <p class="terms-block-body">
+                    We reserve the right to modify or replace these terms at any time. If a
+                    revision is material, we will provide at least 30 days' notice prior to any
+                    new terms taking effect. By continuing to access or use our service after
+                    those revisions become effective, you agree to be bound by the revised terms.
+                </p>
+            </section>
+
+            <section class="terms-block">
+                <h2 class="terms-block-title">6. Contact Us</h2>
+                <p class="terms-block-body">
+                    If you have any questions about these Terms and Conditions, please contact us
+                    through the application.
+                </p>
+            </section>
+        </div>
+
+        <div class="terms-back">
+            <a href="{{ url_for('landing') }}" class="btn-ghost">← Back to home</a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
